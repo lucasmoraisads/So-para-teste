@@ -23,8 +23,38 @@
                     <input type="date" name="date" ><br>
                     <label for="estado">Estado</label> <br>   
                     <select name="estado" id="estado">
-                        <option value=""></option>
-                    </select>
+                        <option value="">Selecione seu Estado</option>
+                        <option value="acre">Acre - AC</option>
+                        <option value="alagoas">Alagoas - AL</option>
+                        <option value="amapa">Amapá - AP</option>
+                        <option value="amazonas">Amazonas - AM</option>
+                        <option value="baia">Bahia - BA</option>
+                        <option value="ceara">Ceará - CE</option>
+                        <option value="espirito santo">Espírito Santo - ES</option>
+                        <option value="goias">Goiás - GO</option>
+                        <option value="maranhao">Maranhão - MA</option>
+                        <option value="moto grosso">Mato Grosso - MT</option>
+                        <option value="mato grosso sul">Mato Grosso do Sul - MS</option>
+                        <option value="minas gerais">Minas Gerais - MG</option>
+                        <option value="para">Pará - PA</option>
+                        <option value="paraiba">Paraíba - PB</option>
+                        <option value="parana">Paraná - PR</option>
+                        <option value="pernambuco">Pernambuco - PE</option>
+                        <option value="piaui">Piauí - PI</option>
+                        <option value="rio de janeiro">Rio de Janeiro - RJ</option>
+                        <option value="Rio grande">Rio Grande do Norte - RN</option>
+                        <option value="rio grande sul">Rio Grande do Sul - RS</option>
+                        <option value="rondonia">Rondônia - RO</option>
+                        <option value="roraima">Roraima - RR</option>
+                        <option value="santa catarina">Santa Catarina - SC</option>
+                        <option value="sao paulo">São Paulo - SP</option>
+                        <option value="sergipe">Sergipe - SE</option>
+                        <option value="tocantins">Tocantins - TO</option>
+                        <option value="distrito federal">Distrito Federal - DF</option>
+                    </select> <br>
+
+                    <label for="cidade">Cidade</label> <br>
+                    <input type="text" name="cidade" placeholder="Cidade">
                     
 
                     <br>

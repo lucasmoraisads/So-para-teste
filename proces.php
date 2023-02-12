@@ -8,16 +8,12 @@ $date = $_POST['date'];
 $estado = $_POST['estado'];
 $cidade = $_POST['cidade'];
 
-echo $nome;
-echo '<br>';
-echo $sobrenome;
-echo '<br>';
-echo $cpf;
-echo '<br>';
-echo $email;
-echo '<br>';
-echo $date;
-echo '<br>';
-echo $estado;
-echo '<br>';
-echo $cidade;
+
+
+
+if (isset($_POST)){
+    echo $nome;
+}
+elseif($_POST == null){
+    echo "Preencha o Formulario!";
+}
